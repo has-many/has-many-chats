@@ -72,7 +72,7 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.deploy_method = :git
+  deploy.method = :git
   deploy.remote   = 'production' # remote name or git url, default: origin
   deploy.branch   = 'master' # default: gh-pages
 end
